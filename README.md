@@ -1,31 +1,60 @@
-# React + TypeScript + Vite
+# Todo App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview 🎯
+As I Have started learning Typescript this is my first small project
+**TodoApp**  
 
-Currently, two official plugins are available:
+Simple App for tracking your day-to-day tasks made using Typescript, React, and Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tech Stack 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Frontend
 
-- Configure the top-level `parserOptions` property like this:
+- **React.js** ⚛️
+- ** Typescript** 🎨
+- **Vite** ⚡
+- **React Router** 🧭
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+
+### Hosting - Live Demo 🌐
+
+Check out the live project here:
+
+- **Frontend Netlify**: [Todo App site](https://todoappusingtypescript.netlify.app/) 🔥
+
+## How to Use 📚
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HarshBansal2k01/JobTrackrApp.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd TodoApp
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Contact 📧
+
+Feel free to reach out if you have any questions or suggestions!
+
+- **Email**: bansalharsh0914@gmail.com
+- **LinkedIn**: [Harsh Bansal](https://www.linkedin.com/in/harsh-bansal-7441331b6/)
+- **GitHub**: [HarshBansal2k01](https://github.com/HarshBansal2k01)
+
+---
+
+Made with ❤️ by [Harsh Bansal](https://github.com/HarshBansal2k01)
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-"# Todo-App-Typescript" 
